@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 
+
 const Table = (props) => {
 
   const renderPlates = (array) => {
@@ -21,7 +22,7 @@ const Table = (props) => {
                and renders an empty plate
                for every element in the array
             */
-            renderPlates([])
+            renderPlates(props.plates)
           }
         </div>
       </div>
